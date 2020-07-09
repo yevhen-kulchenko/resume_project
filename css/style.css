@@ -1,0 +1,243 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat';
+    background: #f5f7fa;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.wrapper {
+    background: #ffffff;
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+}
+
+.sidebar {
+    background: #1e2939;
+    width: 370px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.my-photo {
+    width: 370px;
+}
+
+.about-me-conteiner {
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 110px;
+    padding-bottom: 110px;
+}
+
+.contacts-conteiner {
+    margin-top: 60px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.contacts-title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+.contacts-link {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: darkgray;
+}
+.contacts-link-type {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #fff;
+    margin-right: 10px;
+}
+.contacts-link-type-1 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #fff;
+}
+
+.tech-skills-conteiner {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 55px;
+}
+.tech-skills-title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 15px;
+    color: #fff;
+}
+.tech-skills-type {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: tomato;
+    margin-left: 15px;
+}
+.tech-skills-text {
+    color: #b6b9be;
+}
+
+.soft-skills-conteiner {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 55px;
+}
+.soft-skills-title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 15px;
+    color: #fff;
+}
+.soft-skills-type {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: tomato;
+    margin-left: 15px;
+}
+.soft-skills-text {
+    color: #b6b9be;
+}
+
+.info-conteiner {
+    margin-bottom: 40px;
+}
+
+.profession {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+
+.name {
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 89px;
+}
+
+.description {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 10px;
+}
+
+.projects-conteiner {
+    margin-bottom: 20px;
+}
+.about-me-title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 15px;
+}
+.projects-link {
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.tech-name {
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.dots {
+    color: #a8a8a8;
+    font-weight: 100;
+}
+.projects-item {
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+.profession-title {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.company {
+    color: #ff6b08;
+}
+.profession-time {
+    color: #a8a8a8;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.profession-didider {
+    color: #575757;
+}
+.profession-duties {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.profession-duties-item {
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;    
+}
+
+.education-title {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #ff6b08;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.education-item {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 5px;
+}
+.education-time {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #a8a8a8;
+}
+.education-didider {
+    color: #575757;
+}
+.courses-and-trainings {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+}
+.courses-and-trainings-title {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.city {
+    color: #ff6b08;
+}
